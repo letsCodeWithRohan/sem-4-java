@@ -1,10 +1,15 @@
+/* 2.1 Define a Java class named Rectangle. 
+It should have two double data fields: width and height, both with a default value of 1. 
+Implement a no-argument constructor and a constructor that takes width and height as parameters. 
+Include methods getArea() and getPerimeter() that return the calculated area and perimeter respectively. */
+
 class Rectangle {
 
     private int width, height;
 
     Rectangle(){
-        this.width = 10;
-        this.height = 5;
+        this.width = 1;
+        this.height = 1;
     }
 
     Rectangle(int width, int height){
